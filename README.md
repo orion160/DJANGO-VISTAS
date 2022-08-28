@@ -1,20 +1,99 @@
-# Monitoring Views Workshop
+Create measurements
 
-* if you want a easy installation use **pipenv\*** else use **requirements.txt**
+[
+    {
+        "model": "measurements.measurement",
+        "pk": 4,
+        "fields": {
+            "variable": 2,
+            "value": 2.0,
+            "unit": "unit",
+            "place": "Colombia",
+            "dateTime": "2022-08-14T00:46:51.736Z"
+        }
+    }
+]
 
-**pipenv:** can be installed wih:
+Retrieve measurements
 
-```bash
-pip install pipenv
-```
+[
+    {
+        "model": "measurements.measurement",
+        "pk": 2,
+        "fields": {
+            "variable": 1,
+            "value": 2.0,
+            "unit": "unit",
+            "place": "Colombia",
+            "dateTime": "2022-08-14T00:41:47.988Z"
+        }
+    },
+    {
+        "model": "measurements.measurement",
+        "pk": 3,
+        "fields": {
+            "variable": 2,
+            "value": 2.0,
+            "unit": "unit",
+            "place": "Colombia",
+            "dateTime": "2022-08-14T00:42:03.339Z"
+        }
+    },
+    {
+        "model": "measurements.measurement",
+        "pk": 4,
+        "fields": {
+            "variable": 2,
+            "value": 2.0,
+            "unit": "unit",
+            "place": "Colombia",
+            "dateTime": "2022-08-14T00:46:51.736Z"
+        }
+    },
+    {
+        "model": "measurements.measurement",
+        "pk": 1,
+        "fields": {
+            "variable": 1,
+            "value": 2.2,
+            "unit": "SIa",
+            "place": "Colomsbia",
+            "dateTime": "2022-08-14T00:38:09.789Z"
+        }
+    }
+]
 
-dont forget to check if you have the right python version: 3.8
+Update measurements
 
-* Executing with pipenv 
-```bash
-pipenv run python {command}
-```
-Example:
-```bash
-pipenv run python manage.py makemigrations 
-```
+[
+    {
+        "model": "measurements.measurement",
+        "pk": 1,
+        "fields": {
+            "variable": 1,
+            "value": 2.2,
+            "unit": "SIa",
+            "place": "Colomsbia",
+            "dateTime": "2022-08-14T00:38:09.789Z"
+        }
+    }
+]
+
+Retrieve measurement
+
+[
+    {
+        "model": "measurements.measurement",
+        "pk": 1,
+        "fields": {
+            "variable": 1,
+            "value": 26.0,
+            "unit": "C",
+            "place": "Colombia",
+            "dateTime": "2022-08-14T00:38:09.789Z"
+        }
+    }
+]
+
+Delete measurement
+204 No content
