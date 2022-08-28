@@ -1,5 +1,5 @@
 Create measurements
-
+```json
 [
     {
         "model": "measurements.measurement",
@@ -13,9 +13,9 @@ Create measurements
         }
     }
 ]
-
+```
 Retrieve measurements
-
+```json
 [
     {
         "model": "measurements.measurement",
@@ -62,9 +62,9 @@ Retrieve measurements
         }
     }
 ]
-
+```
 Update measurements
-
+```json
 [
     {
         "model": "measurements.measurement",
@@ -78,9 +78,9 @@ Update measurements
         }
     }
 ]
-
+```
 Retrieve measurement
-
+```json
 [
     {
         "model": "measurements.measurement",
@@ -94,6 +94,6 @@ Retrieve measurement
         }
     }
 ]
-
+```
 Delete measurement
 204 No content
